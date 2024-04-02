@@ -1,0 +1,58 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form {
+    width: 400px; /* Adjust the width as needed */
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left; /* Align labels to the left */
+}
+
+.label {
+    display: block; /* Ensure labels are on their own line */
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 5px; /* Add some space between labels */
+}
+
+.input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.heading {
+    text-align: center;
+}
